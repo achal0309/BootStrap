@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <title>FORMS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 style="padding-left: 10%">FORMS</h1><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+               <form>
+                    <div class="form-group">
+                        <label for="firstname">FIRST NAME</label>
+                         <input type="text" class="form-control " name="firstname">
+                        </div>
+                    <div class="form-group">
+                        <label for="lastname">LAST NAME</label>
+                         <input type="text" class="form-control" name="lastname">
+                    </div>
+                   <div class="radio">
+                       <label>
+                           <input type="radio" name="gender" value="male">Male
+                       </label>
+                        <label>
+                           <input type="radio" name="gender" value="Female">Female
+                       </label>
+                        <label>
+                            <input type="radio" name="gender" value="others">Others
+                       </div>
+                   <div class="checkbox">
+                       I want to Order:
+                       <label>
+                           <input type="checkbox" name="food" value="Coffee" checked>Coffee
+                       </label>
+                       <label>
+                           <input type="checkbox" name="food" value="Cake" >Cake
+                       </label>
+                       <div class="form-group">
+                           Quantity
+                           <select class="form-control">
+                               <option>1</option>
+                                <option>2</option>
+                                 <option>3</option>
+                           </select>
+                   </div>
+              </form>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
